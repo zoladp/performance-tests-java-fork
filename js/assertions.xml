@@ -1,8 +1,8 @@
-<testsuite name="com.awesome.testing.BasicSimulation" tests="2" errors="0" failures="0" time="0">
-  <testcase name="Global: 99th percentile of response time is less than 3000.0" status="true" time="0">
-  <system-out>Global: 99th percentile of response time is less than 3000.0</system-out>
+<testsuite name="com.awesome.testing.BasicSimulationHard" tests="2" errors="0" failures="2" time="0">
+  <testcase name="Global: 99th percentile of response time is less than 3000.0" status="false" time="0">
+  <failure type="Global: 99th percentile of response time is less than 3000.0">Actual value: 60001.0</failure>
 </testcase>
-<testcase name="Global: percentage of successful events is greater than or equal to 99.0" status="true" time="0">
-  <system-out>Global: percentage of successful events is greater than or equal to 99.0</system-out>
+<testcase name="Global: percentage of successful events is greater than or equal to 99.0" status="false" time="0">
+  <failure type="Global: percentage of successful events is greater than or equal to 99.0">Actual value: 62.339861901246366</failure>
 </testcase>
 </testsuite>
