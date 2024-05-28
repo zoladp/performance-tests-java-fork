@@ -29,7 +29,7 @@ jobs:
           ./run-docker-compose-ci.sh
 
       - name: Run Gatling tests
-        run: ./mvnw gatling:test -Dgatling.simulationClass=com.awesome.testing.BasicSimulation
+        run: ./mvnw gatling:test -Dgatling.simulationClass=com.awesome.testing.BasicSimulationHard
 
       - name: Find Gatling Report Directory
         id: find-report
